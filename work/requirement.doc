@@ -1,0 +1,101 @@
+Dựa trên giao diện và chức năng của trang Parrot (chuyên về nghe chép chính tả), tôi sẽ giúp bạn lên ý tưởng chi tiết cho một trang web miễn phí dành riêng cho học sinh cấp ba (lớp 10, (hứa hẹn làm 11, 12 trong tương lai) để luyện nghe tiếng Anh.
+Mục tiêu của trang web: Cung cấp bài tập nghe điền từ (gap-fill) , nghe chọn đáp án đúng (multiple choice), nghe chọn đúng sai (True, False), nghe trả lời câu hỏi (answer the questions), ngoài ra còn bổ sung nghe có chép chính tả (dictation) từ 3 nguồn: SGK, SBT, và bổ sung chủ đề/level A1-B2. 
+1. Tên gợi ý & khẩu hiệu
+Tên: Audichi
+Slogan:  Tuning your ears to the world
+2. Đối tượng người dùng chính
+Học sinh lớp 10, 11, 12 toàn quốc (chương trình global success)
+Giáo viên có thể giao bài tập về nhà (nếu có chức năng tạo lớp ảo)
+3. Các mục bài tập nghe (3 ngăn chính)
+Ngăn
+Nội dung
+Ví dụ
+SGK
+Nghe lại bài tập trong sách giáo khoa (Unit 1-10, Listening lessons)
+Unit 1: Family life – Listening task
+SBT
+Nghe thêm bài tập trong sách bài tập
+Unit 1 extra listening – true/false + dictation
+Thư viện bổ sung
+Cập nhật thường xuyên theo chủ đề (giới thiệu, trường học, công nghệ, môi trường) và theo level A1, A2, B1, B2
+Topic: Climate change – B1 level – 10 câu điền từ
+
+4. Các loại bài tập nghe 
+Parrot tập trung vào nghe chép chính tả (dictation) – bạn có thể mở rộng thêm:
+Dạng 1: Điền từ vào chỗ trống (gap-fill) – phổ biến nhất trong SGK/SBT.
+Dạng 2: Nghe và chọn đáp án đúng (multiple choice) – cho các bài tập nghe hiểu.
+Dạng 3: nghe chọn đúng sai (True, False), 
+Dạng 4 :nghe trả lời câu hỏi (answer the questions), 
+Dạng 5: Nghe và sắp xếp câu/đoạn.
+Dạng 6: Nghe và chép lại cả câu (dictation) – giống Parrot, có gợi ý từng từ.
+5. Chức năng chính của trang web (theo mô hình Parrot + mở rộng)
+A. Trang chủ
+Banner:  Tuning your ears to the world
+3 khối lớn: SGK (10-11-12), SBT, Thư viện chủ đề/level
+Ô tìm kiếm bài học theo từ khóa (unit, chủ đề, level)
+B. Giao diện bài học (tham khảo Parrot)
+Mỗi bài học có cấu trúc:
+Tiêu đề bài học: Ví dụ: Unit 1: Family life – Listening task 2 (SGK 10)
+Mô tả mục tiêu: Level A2, kỹ năng nghe – điền từ.
+Khung phát audio – có nút Play, Pause, tốc độ 0.75x/1x/1.25x.
+Phần nhập câu trả lời (giống Parrot):
+Nếu là dictation: một ô text lớn, người dùng gõ lại câu nghe được.
+Nếu là gap-fill: hiển thị đoạn văn có các ô input (___).
+Nút "Kiểm tra" – tự động chấm (so sánh với đáp án đúng, không phân biệt hoa/thường, bỏ qua dấu câu cơ bản).
+Nút "Gợi ý" – tiết lộ từ đầu tiên hoặc hiện 1 chữ cái (giống Parrot).
+Kết quả – hiển thị số câu đúng/sai, highlight lỗi sai.
+Nút "Nghe lại câu hiện tại" – rất quan trọng.
+C. Hệ thống phân cấp (menu)
+text
+Trang chủ
+├── Theo SGK
+│   ├── Lớp 10 (Units 1-10)
+│   ├── Lớp 11
+│   └── Lớp 12
+├── Theo SBT
+│   ├── Lớp 10
+│   └── ...
+├── Thư viện chủ đề & level
+│   ├── Chủ đề (Gia đình, Trường học, Công nghệ, Môi trường...)
+│   └── Level (A1, A2, B1, B2)
+└── Tài khoản (lưu lịch sử làm bài)
+6. Thiết kế gợi ý (UI/UX)
+Màu sắc: Nền trắng/sáng, chữ đen, điểm nhấn xanh dương hoặc cam (tạo cảm giác học tập hiện đại, dễ nhìn).
+Font chữ: Dễ đọc (Roboto, Open Sans).
+Responsive: Tối ưu cho máy tính và điện thoại (vì học sinh dùng mobile nhiều).
+Không quảng cáo khó chịu – giữ đúng cam kết miễn phí, có thể chạy Google AdSense nhẹ nhàng hoặc kêu gọi ủng hộ (donate).
+7. Những việc cần làm để xây dựng trang web
+Giai đoạn 1: Chuẩn bị nội dung
+Tải và số hóa các bài nghe từ SGK, SBT (lớp 10-11-12) – cần đảm bảo bản quyền? Nếu chỉ dùng cho mục đích giáo dục phi lợi nhuận, bạn có thể trích dẫn nguồn, nhưng tốt nhất nên liên hệ nhà xuất bản hoặc dùng file có sẵn của giáo viên.
+Tạo đáp án (script) cho mỗi bài tập – có thể nhập tay.
+Viết thêm 50-100 bài bổ sung theo chủ đề/level (tự soạn hoặc sưu tầm).
+Giai đoạn 2: Phát triển kỹ thuật (dùng stack đơn giản)
+Frontend: HTML, CSS, JavaScript (React hoặc Vue nếu có thể, nhưng không bắt buộc)
+Backend: Node.js + Express hoặc Firebase (để lưu bài làm của user)
+Cơ sở dữ liệu: MongoDB hoặc Firebase Firestore – lưu bài tập, đáp án, lịch sử người dùng.
+Tính năng dictation giống Parrot: Cần xử lý so sánh chuỗi (string normalization), có thể dùng thư viện diff hoặc tự viết hàm highlight lỗi.
+Giai đoạn 3: Chạy thử & cải tiến
+Cho 1 nhóm học sinh cấp ba dùng thử.
+Thu thập phản hồi: âm thanh có rõ không? nút gợi ý có hữu ích không? có bị lỗi chấm điểm không?
+8. Điểm khác biệt so với Parrot (để tạo giá trị riêng)
+Parrot
+Trang web của bạn
+Chủ yếu dùng trailer phim, video hội thoại
+Dùng đúng bài tập trong SGK/SBT – rất thiết thực cho học sinh Việt
+Không phân cấp theo level rõ ràng
+Phân cấp A1-B2, có thể tra cứu dễ dàng
+Không lưu lịch sử nếu không đăng nhập
+Cho phép tạo tài khoản miễn phí, lưu kết quả từng bài, theo dõi tiến trình
+
+9. Tài nguyên cần có ban đầu (tối thiểu để ra mắt)
+30 bài từ SGK (10 bài mỗi khối)
+20 bài từ SBT
+20 bài bổ sung (chủ đề phổ biến: môi trường, công nghệ, du lịch, sức khỏe, ước mơ nghề nghiệp)
+Hệ thống chấm tự động đơn giản (chỉ dictation và gap-fill)
+Hosting: Vercel + MongoDB Atlas (free tier) hoặc Netlify + Google Sheets API (cực kỳ đơn giản để quản lý đáp án).
+10. Lời khuyên thực tế
+Đừng tham vọng làm quá lớn ngay từ đầu. Hãy bắt đầu với chỉ 1 khối lớp (ví dụ 10) và 2 dạng bài (gap-fill, dictation).
+Thiết kế giao diện theo đúng Parrot nhưng đơn giản hóa: một cột duy nhất, audio ở trên, text input ở dưới.
+Tận dụng file audio có sẵn từ đĩa CD hoặc giáo viên (đảm bảo không vi phạm bản quyền nếu dùng nội bộ trường học).
+Nếu bạn không rành lập trình, có thể dùng Google Form + tự động chấm bằng Sheets như một MVP, sau đó thuê người xây web.
+
